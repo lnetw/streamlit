@@ -5,7 +5,7 @@ This project contains a dashboard showcasing the average temperature in Delphi, 
 
 ## Data Usage
 
-The dashboard utilizes an open dataset from [Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white), specifically the [Daily Climate](https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data)  dataset. This dataset contains information on meantemp and other climate-related variables in the city of Delhi from 2013 to 2017.
+The dashboard utilizes an open dataset from [Kaggle](https://www.kaggle.com), specifically the [Daily Climate](https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data)  dataset. This dataset contains information on meantemp and other climate-related variables in the city of Delhi from 2013 to 2017.
 
 
 ## Using framework
