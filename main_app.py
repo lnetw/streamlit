@@ -84,8 +84,9 @@ with add_value:
     with bottom:
         action = st.button('Add value in dataframe')
     if action:
-        if humidity is None or wind_speed is None:
-            st.warning('Please insert a value in humidity and wind speed')
+        if humidity is None or wind_speed is None or meanpressure is None:
+            st.warning(
+                'Please insert a value in humidity, wind speed and mean pressure')
         else:
             # Predict mean temperature and add new value
             mean_temp = utils.construct_and_predict_new_temprature(humidity, wind_speed,
