@@ -28,6 +28,3 @@ The dashboard utilizes an open dataset from [Kaggle](https://www.kaggle.com), sp
 ## Deploying the Project on Streamlit.io
 
 Streamlit not only serves as a powerful library for building web interfaces, but it also provides the opportunity to host projects on a website. After deployment, the user receives a unique URL with the format ``name_project.streamlit.io``. To take advantage of this feature, users need to consolidate their project into a single file (in this case, ``main_app.py``), prepare a requirements.txt file containing a list of all project dependencies, and set up a configuration file for Streamlit itself. More details about the deployment process can be found in the [documentation](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app).
-
-
-## Docker
